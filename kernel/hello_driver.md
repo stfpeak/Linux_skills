@@ -63,7 +63,7 @@ $ sudo insmod hello.ko
 $ sudo dmesg | tail -n 10
  
 * 查看内核模块信息 
-$ sudo modinfo hello.ko 
+$ sudo modinfo hello.ko
  
 * 卸载内核模块 
-$ sudo rmmod hello.ko 
+$ sudo rmmod hello
